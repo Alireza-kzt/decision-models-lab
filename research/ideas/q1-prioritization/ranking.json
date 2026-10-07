@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-07",
+  "base_commit": "59f20dc9ed51acf5ad2058c43c57bdfc22b2df5d",
+  "score_kind": "subjective_pilot_priority_not_acceptance_probability",
+  "publication_guaranteed": false,
+  "final_topic_selected": false,
+  "real_experiments": 0,
+  "resource_profile": "unknown_actual_budget_and_gpu; small_open_models_or_authorized_saved_predictions_assumed_for_planning_only",
+  "weights": {"feasibility": 25, "data_access": 20, "distinct_contribution": 25, "evaluation": 20, "infrastructure_independence": 10},
+  "sensitivity_weights": {
+    "feasibility_first": {"feasibility": 35, "data_access": 25, "distinct_contribution": 15, "evaluation": 15, "infrastructure_independence": 10},
+    "novelty_first": {"feasibility": 15, "data_access": 15, "distinct_contribution": 40, "evaluation": 20, "infrastructure_independence": 10}
+  },
+  "candidates": [
+    {"rank": 1, "id": "C002", "ratings": {"feasibility": 5, "data_access": 4, "distinct_contribution": 3, "evaluation": 5, "infrastructure_independence": 5}, "priority_score": 86, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 2, "id": "C006", "ratings": {"feasibility": 4, "data_access": 4, "distinct_contribution": 3, "evaluation": 5, "infrastructure_independence": 5}, "priority_score": 81, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 3, "id": "C001", "ratings": {"feasibility": 4, "data_access": 4, "distinct_contribution": 3, "evaluation": 4, "infrastructure_independence": 5}, "priority_score": 77, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 4, "id": "C009", "ratings": {"feasibility": 4, "data_access": 4, "distinct_contribution": 2, "evaluation": 5, "infrastructure_independence": 5}, "priority_score": 76, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 5, "id": "C004", "ratings": {"feasibility": 4, "data_access": 4, "distinct_contribution": 2, "evaluation": 4, "infrastructure_independence": 4}, "priority_score": 70, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 6, "id": "C005", "ratings": {"feasibility": 4, "data_access": 3, "distinct_contribution": 2, "evaluation": 4, "infrastructure_independence": 4}, "priority_score": 66, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 7, "id": "C011", "ratings": {"feasibility": 4, "data_access": 3, "distinct_contribution": 2, "evaluation": 4, "infrastructure_independence": 3}, "priority_score": 64, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 8, "id": "C010", "ratings": {"feasibility": 3, "data_access": 3, "distinct_contribution": 2, "evaluation": 4, "infrastructure_independence": 4}, "priority_score": 61, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 9, "id": "C003", "ratings": {"feasibility": 3, "data_access": 3, "distinct_contribution": 2, "evaluation": 3, "infrastructure_independence": 4}, "priority_score": 57, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 10, "id": "C008", "ratings": {"feasibility": 2, "data_access": 2, "distinct_contribution": 3, "evaluation": 3, "infrastructure_independence": 3}, "priority_score": 51, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 11, "id": "C007", "ratings": {"feasibility": 2, "data_access": 2, "distinct_contribution": 3, "evaluation": 2, "infrastructure_independence": 3}, "priority_score": 47, "status": "proposed_not_run", "novelty_verified": false},
+    {"rank": 12, "id": "C012", "ratings": {"feasibility": 2, "data_access": 3, "distinct_contribution": 1, "evaluation": 3, "infrastructure_independence": 3}, "priority_score": 45, "status": "proposed_not_run", "novelty_verified": false}
+  ]
+}
