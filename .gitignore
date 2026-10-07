@@ -1,0 +1,37 @@
+# Local secrets and caches
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
+# Private / large artifacts
+runs/
+artifacts/
+checkpoints/
+weights/
+data/raw/
+data/processed/
+data/private/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.bin
+*.pdf
+# Provider raw traffic and local databases
+raw_responses/
+*.sqlite
+*.sqlite3
+*.log

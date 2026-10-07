@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "E001",
+  "title": "Baseline and adapter contract audit",
+  "status": "planned",
+  "hypothesis_id": null,
+  "objective": "Pin and validate two candidate implementations before measuring quality.",
+  "model_ids": [],
+  "dataset_id": null,
+  "split_manifest": null,
+  "primary_metric": "Contract compliance, provenance and test fixtures; no quality claim.",
+  "seeds": [],
+  "max_cost_usd": null,
+  "approval_status": "not_requested",
+  "blocking_requirements": [
+    "license review",
+    "checkpoint pin",
+    "adapter implementation"
+  ],
+  "results": null,
+  "runs": []
+}

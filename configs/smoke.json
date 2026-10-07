@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "kind": "demonstration",
+  "model_id": "uniform-demo",
+  "revision": "v1",
+  "dataset": "data/examples/toy.jsonl",
+  "seed": 17,
+  "ece_bins": 10,
+  "threshold": 0.8,
+  "network_access": false
+}

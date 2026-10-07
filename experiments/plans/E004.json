@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "E004",
+  "title": "Single-change ablation",
+  "status": "planned",
+  "hypothesis_id": null,
+  "objective": "Choose one H### and isolate one architecture or training change.",
+  "model_ids": [],
+  "dataset_id": null,
+  "split_manifest": null,
+  "primary_metric": "Primary metric, effect size and controls must be filled before launch.",
+  "seeds": [],
+  "max_cost_usd": null,
+  "approval_status": "not_requested",
+  "blocking_requirements": [
+    "failure map",
+    "novelty review",
+    "selected hypothesis",
+    "compute authorization"
+  ],
+  "results": null,
+  "runs": []
+}

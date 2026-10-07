@@ -1,0 +1,34 @@
+test_canonical_ties (test_metrics.MetricTests.test_canonical_ties) ... ok
+test_ece_and_selection (test_metrics.MetricTests.test_ece_and_selection) ... ok
+test_empty_input (test_metrics.MetricTests.test_empty_input) ... ok
+test_invalid_parameters (test_metrics.MetricTests.test_invalid_parameters) ... ok
+test_perfect (test_metrics.MetricTests.test_perfect) ... ok
+test_uniform_hand_calculation (test_metrics.MetricTests.test_uniform_hand_calculation) ... ok
+test_zero_probability_clipped (test_metrics.MetricTests.test_zero_probability_clipped) ... ok
+test_dry_run_never_calls_git_or_gh (test_publish.PublishTests.test_dry_run_never_calls_git_or_gh) ... ok
+test_invalid_name_rejected (test_publish.PublishTests.test_invalid_name_rejected) ... ok
+test_failed_run_preserved (test_runner.RunnerTests.test_failed_run_preserved) ... ok
+test_no_uniform_impersonation (test_runner.RunnerTests.test_no_uniform_impersonation) ... ok
+test_registry_and_links (test_runner.RunnerTests.test_registry_and_links) ... ok
+test_replay_is_not_provider_execution (test_runner.RunnerTests.test_replay_is_not_provider_execution) ... ok
+test_run_and_immutable_output (test_runner.RunnerTests.test_run_and_immutable_output) ... ok
+test_uniform_adapter (test_runner.RunnerTests.test_uniform_adapter) ... ok
+test_bad_label (test_schema.SchemaTests.test_bad_label) ... ok
+test_duplicate_id (test_schema.SchemaTests.test_duplicate_id) ... ok
+test_duplicate_json_keys (test_schema.SchemaTests.test_duplicate_json_keys) ... ok
+test_empty_jsonl (test_schema.SchemaTests.test_empty_jsonl) ... ok
+test_group_leakage (test_schema.SchemaTests.test_group_leakage) ... ok
+test_missing_prediction (test_schema.SchemaTests.test_missing_prediction) ... ok
+test_mixed_eval_split (test_schema.SchemaTests.test_mixed_eval_split) ... ok
+test_no_renormalization (test_schema.SchemaTests.test_no_renormalization) ... ok
+test_nonfinite_state (test_schema.SchemaTests.test_nonfinite_state) ... ok
+test_prediction_id_join (test_schema.SchemaTests.test_prediction_id_join) ... ok
+test_probability_failures (test_schema.SchemaTests.test_probability_failures) ... ok
+test_unknown_prediction (test_schema.SchemaTests.test_unknown_prediction) ... ok
+test_valid_example (test_schema.SchemaTests.test_valid_example) ... ok
+test_variable_options_rejected (test_schema.SchemaTests.test_variable_options_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 1.249s
+
+OK

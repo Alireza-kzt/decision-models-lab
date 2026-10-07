@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "E002",
+  "title": "Calibration reproduction",
+  "status": "planned",
+  "hypothesis_id": null,
+  "objective": "Reproduce raw and temperature-scaled probability metrics on a held-out task.",
+  "model_ids": [],
+  "dataset_id": null,
+  "split_manifest": null,
+  "primary_metric": "NLL and Brier; no calibration-set/test overlap.",
+  "seeds": [],
+  "max_cost_usd": null,
+  "approval_status": "not_requested",
+  "blocking_requirements": [
+    "E001",
+    "licensed dataset",
+    "frozen split",
+    "temperature fitter"
+  ],
+  "results": null,
+  "runs": []
+}

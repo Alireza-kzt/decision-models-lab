@@ -1,0 +1,68 @@
+{
+  "ideas": [
+    {
+      "id": "H001",
+      "title": "ناوردایی معنایی نسبت به schema",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H001-schema-equivariance.md",
+      "local_runs": []
+    },
+    {
+      "id": "H002",
+      "title": "کالیبراسیون هنگام تغییر مجموعهٔ گزینه‌ها",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H002-candidate-set-calibration.md",
+      "local_runs": []
+    },
+    {
+      "id": "H003",
+      "title": "امتناع در نبود شواهد و خارج از دامنه",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H003-evidence-aware-abstention.md",
+      "local_runs": []
+    },
+    {
+      "id": "H004",
+      "title": "تصمیم‌های چندفیلدی سازگار",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H004-structured-consistency.md",
+      "local_runs": []
+    },
+    {
+      "id": "H005",
+      "title": "cascade با کنترل ریسک در تغییر دامنه",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H005-risk-controlled-cascade.md",
+      "local_runs": []
+    },
+    {
+      "id": "H006",
+      "title": "برچسب کم و distillation برای دامنهٔ تازه",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H006-few-label-transfer.md",
+      "local_runs": []
+    },
+    {
+      "id": "H007",
+      "title": "تصمیم فارسی و انگلیسی با برچسب‌های مشترک",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H007-cross-lingual-decisions.md",
+      "local_runs": []
+    },
+    {
+      "id": "H008",
+      "title": "policy و value برای جست‌وجوی مقید",
+      "status": "hypothesis",
+      "novelty": "unverified",
+      "path": "research/ideas/H008-policy-value-search.md",
+      "local_runs": []
+    }
+  ]
+}

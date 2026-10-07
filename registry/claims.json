@@ -1,0 +1,42 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "Tev1 uses its language-model output head and a constrained option-letter response.",
+      "source_ids": [
+        "S008"
+      ],
+      "status": "source_reported_not_locally_reproduced"
+    },
+    {
+      "id": "C002",
+      "statement": "The GLiNER2 paper is a family foundation reference, not a dedicated GLiNER2.5-Decide experiment report.",
+      "source_ids": [
+        "S006",
+        "S016"
+      ],
+      "status": "scope_distinction"
+    },
+    {
+      "id": "C003",
+      "statement": "The two included independent evaluations describe different option-perturbation findings; protocol alignment is required before interpreting them as a contradiction.",
+      "source_ids": [
+        "S017",
+        "S018"
+      ],
+      "status": "research_question_not_resolved"
+    },
+    {
+      "id": "C004",
+      "statement": "No real model in the initial catalogue has been executed by this lab.",
+      "source_ids": [],
+      "status": "local_delivery_fact"
+    },
+    {
+      "id": "C005",
+      "statement": "Novelty of all H001-H008 proposals is unverified.",
+      "source_ids": [],
+      "status": "local_research_status"
+    }
+  ]
+}

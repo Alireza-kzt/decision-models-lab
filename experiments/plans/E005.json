@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "E005",
+  "title": "Confirmatory evaluation",
+  "status": "planned",
+  "hypothesis_id": null,
+  "objective": "Evaluate a frozen selected method once on a fresh final holdout.",
+  "model_ids": [],
+  "dataset_id": null,
+  "split_manifest": null,
+  "primary_metric": "Paired group confidence intervals and preregistered aggregation.",
+  "seeds": [],
+  "max_cost_usd": null,
+  "approval_status": "not_requested",
+  "blocking_requirements": [
+    "E004",
+    "independent reproduction",
+    "new untouched test",
+    "claim scope freeze"
+  ],
+  "results": null,
+  "runs": []
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "papers": [
+    {
+      "id": "P001",
+      "title": "GLiNER2: An Efficient Multi-Task Information Extraction System with Schema-Driven Interface",
+      "authors": [
+        "Urchade Zaratiana",
+        "Gil Pasternak",
+        "Oliver Boyd",
+        "George Hurn-Maloney",
+        "Ash Lewis"
+      ],
+      "year": 2025,
+      "arxiv_id": "2507.18546",
+      "url": "https://arxiv.org/abs/2507.18546",
+      "source_ids": [
+        "S016"
+      ],
+      "role": "family_foundation",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P001.md"
+    },
+    {
+      "id": "P002",
+      "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
+      "authors": [
+        "Zexiao Wang",
+        "Zihao Zhang",
+        "Xudong Wang",
+        "Pan Wang",
+        "Ziyi Ye",
+        "Haoyu Zhao",
+        "Zuxuan Wu",
+        "Shuicheng Yan"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.36965",
+      "url": "https://arxiv.org/abs/2609.36965",
+      "source_ids": [
+        "S014"
+      ],
+      "role": "dedicated_model_preprint",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P002.md"
+    },
+    {
+      "id": "P003",
+      "title": "Benchmarking System One decision models against trained classifiers and language models for automated decision gates",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.00346",
+      "url": "https://arxiv.org/abs/2610.00346",
+      "source_ids": [
+        "S017"
+      ],
+      "role": "independent_evaluation_preprint",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P003.md"
+    },
+    {
+      "id": "P004",
+      "title": "Evaluating and Benchmarking the System One Model Jev",
+      "authors": [
+        "Tobias Deußer",
+        "Lorenz Sparrenberg",
+        "Rafet Sifa"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.37647",
+      "url": "https://arxiv.org/abs/2609.37647",
+      "source_ids": [
+        "S018"
+      ],
+      "role": "independent_evaluation_preprint",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P004.md"
+    },
+    {
+      "id": "P005",
+      "title": "On Calibration of Modern Neural Networks",
+      "authors": [
+        "Chuan Guo",
+        "Geoff Pleiss",
+        "Yu Sun",
+        "Kilian Q. Weinberger"
+      ],
+      "year": 2017,
+      "arxiv_id": "1706.04599",
+      "url": "https://arxiv.org/abs/1706.04599",
+      "source_ids": [
+        "S019"
+      ],
+      "role": "method_foundation",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P005.md"
+    },
+    {
+      "id": "P006",
+      "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+      "authors": [
+        "Anastasios N. Angelopoulos",
+        "Stephen Bates"
+      ],
+      "year": 2021,
+      "arxiv_id": "2107.07511",
+      "url": "https://arxiv.org/abs/2107.07511",
+      "source_ids": [
+        "S020"
+      ],
+      "role": "method_foundation",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P006.md"
+    },
+    {
+      "id": "P007",
+      "title": "Deep Sets",
+      "authors": [
+        "Manzil Zaheer",
+        "Satwik Kottur",
+        "Siamak Ravanbakhsh",
+        "Barnabas Poczos",
+        "Ruslan Salakhutdinov",
+        "Alexander Smola"
+      ],
+      "year": 2017,
+      "arxiv_id": "1703.06114",
+      "url": "https://arxiv.org/abs/1703.06114",
+      "source_ids": [
+        "S021"
+      ],
+      "role": "method_foundation",
+      "review_depth": "metadata_and_abstract_only",
+      "full_text_reviewed": false,
+      "peer_review_status": "not_verified_in_this_audit",
+      "card": "catalog/papers/P007.md"
+    }
+  ]
+}

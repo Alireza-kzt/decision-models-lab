@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-07",
+  "models": [
+    {
+      "id": "jev",
+      "name": "Jev",
+      "organization": "TypeSafe AI",
+      "family": "native_decision_service",
+      "access": "hosted",
+      "weights": "not_publicly_available_in_checked_sources",
+      "code": "not_publicly_available_in_checked_sources",
+      "license_note": "unknown",
+      "source_ids": [
+        "S001"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/jev.md"
+    },
+    {
+      "id": "clef",
+      "name": "Clef / Clef-Flash",
+      "organization": "Cloudflare",
+      "family": "native_decision_weights",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "reported_available",
+      "license_note": "Apache-2.0 reported",
+      "source_ids": [
+        "S002",
+        "S003"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/clef.md"
+    },
+    {
+      "id": "pplx-decider",
+      "name": "pplx-decider-v1.1-27b",
+      "organization": "Perplexity AI",
+      "family": "native_decision_weights",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "reported_available",
+      "license_note": "Apache-2.0 reported",
+      "source_ids": [
+        "S004"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/pplx-decider.md"
+    },
+    {
+      "id": "glide",
+      "name": "GLiDE",
+      "organization": "Fastino",
+      "family": "adaptive_decision_service",
+      "access": "hosted",
+      "weights": "not_confirmed",
+      "code": "not_confirmed",
+      "license_note": "unknown",
+      "source_ids": [
+        "S005"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/glide.md"
+    },
+    {
+      "id": "gliner-decide",
+      "name": "GLiNER2.5-Decide",
+      "organization": "Fastino",
+      "family": "schema_conditioned_encoder",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "reported_available",
+      "license_note": "Apache-2.0 reported",
+      "source_ids": [
+        "S006"
+      ],
+      "paper_ids": [
+        "P001"
+      ],
+      "paper_search_status": "linked_foundation_or_dedicated",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/gliner-decide.md"
+    },
+    {
+      "id": "d1",
+      "name": "d1",
+      "organization": "Liquid AI",
+      "family": "native_decision_service",
+      "access": "hosted",
+      "weights": "not_confirmed",
+      "code": "not_confirmed",
+      "license_note": "unknown",
+      "source_ids": [
+        "S007"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/d1.md"
+    },
+    {
+      "id": "tev1",
+      "name": "Tev1-4B Experimental",
+      "organization": "Together AI",
+      "family": "constrained_generative_baseline",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "recipe_available",
+      "license_note": "code MIT; weights/data separately licensed",
+      "source_ids": [
+        "S008"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/tev1.md"
+    },
+    {
+      "id": "laya",
+      "name": "Laya",
+      "organization": "Convai Innovations",
+      "family": "schema_conditioned_encoder",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "reported_available",
+      "license_note": "Apache-2.0 reported",
+      "source_ids": [
+        "S009"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/laya.md"
+    },
+    {
+      "id": "kev",
+      "name": "Kev",
+      "organization": "Jared Palmer",
+      "family": "native_decision_weights",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "reported_available",
+      "license_note": "license_review_required",
+      "source_ids": [
+        "S010"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/kev.md"
+    },
+    {
+      "id": "decider1",
+      "name": "Decider 1",
+      "organization": "meraGPT",
+      "family": "native_decision_service",
+      "access": "hosted",
+      "weights": "not_confirmed",
+      "code": "not_confirmed",
+      "license_note": "unknown",
+      "source_ids": [
+        "S011"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/decider1.md"
+    },
+    {
+      "id": "mercury-decide",
+      "name": "Mercury Decide",
+      "organization": "Inception",
+      "family": "decision_endpoint",
+      "access": "hosted",
+      "weights": "not_confirmed",
+      "code": "not_confirmed",
+      "license_note": "unknown",
+      "source_ids": [
+        "S012"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/mercury-decide.md"
+    },
+    {
+      "id": "startlux",
+      "name": "StartLux-Decision",
+      "organization": "StartLuxLabs",
+      "family": "native_decision_weights",
+      "access": "open_weights",
+      "weights": "reported_available",
+      "code": "reported_available",
+      "license_note": "license_review_required",
+      "source_ids": [
+        "S013"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/startlux.md"
+    },
+    {
+      "id": "chinese-jev",
+      "name": "Chinese-Jev",
+      "organization": "Wang et al.",
+      "family": "schema_conditioned_encoder",
+      "access": "research_candidate",
+      "weights": "not_audited",
+      "code": "not_audited",
+      "license_note": "unknown",
+      "source_ids": [
+        "S014"
+      ],
+      "paper_ids": [
+        "P002"
+      ],
+      "paper_search_status": "linked_foundation_or_dedicated",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/chinese-jev.md"
+    },
+    {
+      "id": "openai-decisions",
+      "name": "OpenAI Decisions API",
+      "organization": "OpenAI",
+      "family": "decision_api_product",
+      "access": "hosted",
+      "weights": "not_publicly_available_in_checked_sources",
+      "code": "not_publicly_available_in_checked_sources",
+      "license_note": "unknown",
+      "source_ids": [
+        "S015"
+      ],
+      "paper_ids": [],
+      "paper_search_status": "no_dedicated_paper_confirmed_in_checked_sources",
+      "checked_at": "2026-10-07",
+      "release_date": null,
+      "revision": null,
+      "adapter_status": "not_implemented",
+      "local_run_status": "not_run",
+      "card": "catalog/models/openai-decisions.md"
+    }
+  ]
+}

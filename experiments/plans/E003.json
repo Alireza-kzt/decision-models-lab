@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "E003",
+  "title": "Schema robustness pilot",
+  "status": "planned",
+  "hypothesis_id": null,
+  "objective": "Measure semantically aligned permutations and candidate perturbations.",
+  "model_ids": [],
+  "dataset_id": null,
+  "split_manifest": null,
+  "primary_metric": "Group-level flip rate plus quality; permutation does not change label meaning.",
+  "seeds": [],
+  "max_cost_usd": null,
+  "approval_status": "not_requested",
+  "blocking_requirements": [
+    "E001",
+    "grouped data",
+    "semantic transformation audit"
+  ],
+  "results": null,
+  "runs": []
+}

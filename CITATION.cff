@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Private exploratory software; no published research result is claimed."
+title: "Decision Models Lab"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Kamarzardi
+    given-names: Alireza
+abstract: "A private-first workspace for documenting, evaluating and modifying typed decision models."

@@ -1,0 +1,6 @@
+{"id": "toy-001", "probabilities": {"allow": 0.9, "deny": 0.09999999999999998}}
+{"id": "toy-002", "probabilities": {"allow": 0.7, "deny": 0.30000000000000004}}
+{"id": "toy-003", "probabilities": {"allow": 0.2, "deny": 0.8}}
+{"id": "toy-004", "probabilities": {"allow": 0.1, "deny": 0.9}}
+{"id": "toy-005", "probabilities": {"allow": 0.8, "deny": 0.19999999999999996}}
+{"id": "toy-006", "probabilities": {"allow": 0.4, "deny": 0.6}}

@@ -1,0 +1,4 @@
+DRY RUN: would create NEW PRIVATE repository Alireza-kzt/decision-models-lab.
+Would verify package, run tests, require matching authenticated account,
+refuse any existing repository, create with --private, verify visibility, then push.
+No repository has been created and no files have been uploaded.
