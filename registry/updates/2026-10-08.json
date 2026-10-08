@@ -1,0 +1,35 @@
+{
+  "schema_version": "documentation-supplement-1.0",
+  "update_id": "U20261008",
+  "reviewed_on": "2026-10-08",
+  "purpose": "Dated evidence supplement; not loaded by the current runtime registry.",
+  "base_repository_commit": "820e24287ff90f0a18403192e2bf8fd4a80c5ab6",
+  "runtime_registry_changed": false,
+  "models_executed": 0,
+  "training_runs": 0,
+  "tests_run_in_this_update": false,
+  "large_artifacts_downloaded": false,
+  "sources": [
+    {"id":"U08-01","title":"Open d1: Edge decision models for text, vision, and audio","publisher":"Liquid AI","type":"official_announcement","url":"https://www.liquid.ai/blog/d1-open","publication_date":"2026-10-07","review_depth":"announcement_text"},
+    {"id":"U08-02","title":"LiquidAI/d1-3B","publisher":"Liquid AI","type":"model_card_and_file_listing","url":"https://huggingface.co/LiquidAI/d1-3B","artifact_url":"https://huggingface.co/LiquidAI/d1-3B/tree/main","review_depth":"model_card_and_file_listing_not_execution"},
+    {"id":"U08-03","title":"LiquidAI/d1-omni-600M","publisher":"Liquid AI","type":"model_card_and_file_listing","url":"https://huggingface.co/LiquidAI/d1-omni-600M","artifact_url":"https://huggingface.co/LiquidAI/d1-omni-600M/tree/main","review_depth":"model_card_and_file_listing_not_execution"},
+    {"id":"U08-04","title":"LFM Open License v1.0 for d1-omni-600M","publisher":"Liquid AI","type":"artifact_license","url":"https://huggingface.co/LiquidAI/d1-omni-600M/blob/main/LICENSE","review_depth":"license_text_not_legal_clearance"},
+    {"id":"U08-05","title":"SanSi: A Looped Typed Decision Model for System 1.5 Thinking","authors":["Shuyu Gan","Young-Jun Lee","Dongyeop Kang"],"type":"arxiv_preprint","url":"https://arxiv.org/abs/2610.07730v1","html_url":"https://arxiv.org/html/2610.07730v1","submitted_at":"2026-10-06T04:28:22Z","review_depth":"metadata_abstract_and_selected_html_sections_not_full_paper"},
+    {"id":"U08-06","title":"SanSi project page","publisher":"University of Minnesota authors","type":"author_project_page","url":"https://minnesotanlp.github.io/Sansi/","review_depth":"project_text_and_release_status"},
+    {"id":"U08-07","title":"minnesotanlp/Sansi","publisher":"minnesotanlp","type":"upstream_repository","url":"https://github.com/minnesotanlp/Sansi","review_depth":"public_repository_metadata_and_listing_not_code_audit"},
+    {"id":"U08-08","title":"Torchcast Decision 27B model card","publisher":"Torchcast AI","type":"model_card","url":"https://huggingface.co/torchcast-ai/torchcast-decision-27b","review_depth":"card_including_limitations_license_and_benchmark_exposure"},
+    {"id":"U08-09","title":"Torchcast initial visible checkpoint commit","publisher":"Torchcast AI","type":"artifact_commit_and_listing","url":"https://huggingface.co/torchcast-ai/torchcast-decision-27b/commit/08645834899cb8e00d370b77a3f4e0baa3241dd1","artifact_url":"https://huggingface.co/torchcast-ai/torchcast-decision-27b/tree/main","revision":"08645834899cb8e00d370b77a3f4e0baa3241dd1","publication_date":null,"date_status":"exact_initial_release_date_not_verified","review_depth":"commit_page_and_weight_file_listing_not_download"},
+    {"id":"U08-10","title":"Torchcast checkpoint configuration","publisher":"Torchcast AI","type":"artifact_configuration","url":"https://huggingface.co/torchcast-ai/torchcast-decision-27b/blob/main/config.json","review_depth":"configuration_page_and_model_family_metadata_not_code_audit"},
+    {"id":"U08-11","title":"Labels Override Definitions in Jev-Style Typed Decision Models","authors":["Seyedarmin Azizi","Erfan Baghaei Potraghloo","Massoud Pedram"],"type":"arxiv_preprint","url":"https://arxiv.org/abs/2610.02586v1","submitted_at":"2026-10-01T23:32:30Z","review_depth":"metadata_and_abstract"},
+    {"id":"U08-12","title":"Labels Override Definitions, version 1 HTML","type":"primary_paper_html","url":"https://arxiv.org/html/2610.02586v1","review_depth":"selected_scope_and_method_sections_not_full_paper"}
+  ],
+  "candidates": [
+    {"id":"liquid-d1-3b","card":"catalog/models/d1.md","release_date":"2026-10-07","release_date_type":"official_announcement","weight_status":"published_listing_observed_not_downloaded","license_label":"LFM1.0","architecture_status":"described_by_publisher","execution_revision":null,"evidence":["U08-01","U08-02"],"screening_status":"proposed_not_run"},
+    {"id":"liquid-d1-omni-600m","card":"catalog/models/d1.md","release_date":"2026-10-07","release_date_type":"official_announcement","weight_status":"published_listing_observed_not_downloaded","license_label":"LFM1.0","maturity":"experimental","execution_revision":null,"evidence":["U08-01","U08-03","U08-04"],"screening_status":"proposed_not_run"},
+    {"id":"sansi","card":"catalog/models/sansi.md","paper_date":"2026-10-06","weight_status":"model_coming_soon_on_author_page","code_license_label":"Apache-2.0","weight_license":null,"execution_revision":null,"evidence":["U08-05","U08-06","U08-07"],"screening_status":"proposed_blocked_on_checkpoint_or_explicit_reimplementation"},
+    {"id":"torchcast-decision-27b","card":"catalog/models/torchcast-decision-27b.md","release_date":null,"observed_on":"2026-10-08","unverified_prior_date_claim":"2026-10-03","observed_artifact_revision":"08645834899cb8e00d370b77a3f4e0baa3241dd1","execution_revision":null,"weight_status":"published_listing_observed_not_downloaded","weight_license_label":"CC-BY-NC-4.0","inference_code_license_label":"Apache-2.0","benchmark_evidence_status":"author_run_checkpoint_selection_used_benchmark_not_untouched_holdout","evidence":["U08-08","U08-09","U08-10"],"screening_status":"conditional_research_baseline_not_run"}
+  ],
+  "method_update": {"id":"label_definition_robustness","paper_card":"catalog/papers/labels-override-definitions.md","evidence":["U08-11","U08-12"],"closed_jev_measured_by_this_paper":false,"tests_implemented_here":false},
+  "experiment_ids":["DML-20261008-01","DML-20261008-02","DML-20261008-03","DML-20261008-04"],
+  "limitations":["No independent benchmark reproduction","No private data sent upstream","No full code audit","No final base-model decision","Existing runtime registry remains the October 7 snapshot","Open-weight does not imply unrestricted commercial use","Publication dates and observation dates are distinct"]
+}
